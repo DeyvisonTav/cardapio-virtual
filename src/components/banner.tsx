@@ -1,7 +1,5 @@
+import Image from "next/image";
+
 export function BannerComponent() {
-  return (
-    <div>
-      <h1>Banner</h1>
-    </div>
-  );
+  return <div></div>;
 }
