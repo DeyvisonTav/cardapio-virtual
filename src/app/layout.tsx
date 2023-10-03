@@ -17,14 +17,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <div>
-        <body className={montserrat.className}>
-          <HeaderComponent />
-          <div className="lg:py-24 py-20 px-3 text-sm lg:px-[26.5rem]">
-            {children}
-          </div>
-        </body>
-      </div>
+      <body className={montserrat.className}>
+        <HeaderComponent />
+        <div className=" lg:py-24 py-20 px-3 text-sm lg:px-[26.5rem]">
+          {children}
+        </div>
+      </body>
     </html>
   );
 }
