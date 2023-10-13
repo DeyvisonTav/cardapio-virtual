@@ -16,7 +16,7 @@ export function BannerComponent() {
         >
           Descubra o hambúrguer perfeito para saciar seu desejo a qualquer
           momento do dia.
-          <p className="text-[10px] lg:text-2xl font-light">
+          <p className="text-[10px] pt-5 lg:text-2xl font-light">
             "Seu hambúrguer onde estiver, a qualquer hora do dia ou da noite."
           </p>
         </motion.div>

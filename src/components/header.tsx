@@ -7,7 +7,7 @@ export function HeaderComponent() {
   return (
     <div
       className="flex lg:py-6 py-4 px-3 lg:px-[26.5rem] items-center justify-between
-        bg-white shadow-lg shadow-zinc-500 w-screen fixed"
+        bg-white shadow-lg shadow-zinc-600 w-screen fixed"
     >
       <Link href="/">
         <div
